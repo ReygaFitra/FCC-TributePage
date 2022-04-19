@@ -4,6 +4,10 @@
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
+main {
+  background-color: whitesmoke;
+}
+
 .nav ul {
   display: flex;
   justify-content: center;
@@ -68,9 +72,9 @@ figcaption {
   width: 400px;
   margin: 20px 20px;
   padding: 20px 40px;
-  background-color: rgb(218, 216, 216);
+  background-color: white;
   border-radius: 10px;
-  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3), -1px -1px 2px rgba(0, 0, 0, 0.1);
 }
 
 .card ul li {
