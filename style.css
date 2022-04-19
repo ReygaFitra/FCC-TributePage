@@ -138,3 +138,55 @@ blockquote {
     font-size: 1.3rem;
   }
 }
+
+@media (max-width: 834px) {
+  h1 {
+    font-size: 2.5rem;
+    line-height: 1.2;
+  }
+  #main {
+    margin: 0;
+  }
+  #img-caption {
+    font-size: 1.2rem;
+  }
+  img {
+    max-width: 100%;
+    display: block;
+    height: auto;
+    margin: 0 auto;
+  }
+
+  .hero {
+    border-radius: 0;
+    padding: 10px;
+    margin: 0;
+  }
+
+  .tribute {
+    display: block;
+  }
+
+  .card {
+    width: 75%;
+    margin: 20px auto;
+  }
+
+  .card ul li {
+    padding-bottom: 10px;
+    font-size: 1.15rem;
+  }
+  .about {
+    max-width: 100%;
+    font-size: 1.2rem;
+    margin: 0;
+  }
+
+  blockquote {
+    max-width: 75%;
+    font-size: 1.4rem;
+  }
+  #headline {
+    font-size: 1.4rem;
+  }
+}
